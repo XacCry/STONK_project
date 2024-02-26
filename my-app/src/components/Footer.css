@@ -1,0 +1,47 @@
+.footer{
+    background-color: #2C2C2C;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    padding: 50px 20px;
+    gap: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    filter: blur(5px);
+    filter: brightness(100%);
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
