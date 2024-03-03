@@ -5,7 +5,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem auto; /* Auto margins horizontally center the container */
+    margin: 2rem auto; 
     background-color: #ffffff;
     height: 1080px;
 }
+.chart-container {
+    margin-top: 20px;
+  } 

@@ -18,7 +18,7 @@ export const Payment = () => {
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Commission for this week 1 : 234$</td>
+                  <td>Commission for 22/01/2024 : 234$</td>
                   <td>
                     <span className='label label-Waiting'>Waiting</span>
                   </td>
@@ -32,7 +32,7 @@ export const Payment = () => {
               <tbody>
                 <tr>
                   <td>2</td>
-                  <td>Commission for this week 2 : 165$</td>
+                  <td>Commission for 30/01/2024 : 165$</td>
                   <td>
                     <span className='label label-Overdue'>Overdue</span>
                   </td>
@@ -46,7 +46,7 @@ export const Payment = () => {
               <tbody>
                 <tr>
                   <td>3</td>
-                  <td>Commission for this week 3 : 22$</td>
+                  <td>Commission for07/01/2024 : 22$</td>
                   <td>
                     <span className='label label-completed'>completed</span>
                   </td>

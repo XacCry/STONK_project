@@ -1,11 +1,10 @@
 import React,{useState} from 'react'
 import Logo from '../asset/stonk.png'
 import {Link , NavLink} from "react-router-dom"
-
 import "./Navbar.css"
 function Navbar() {
   const [menuOpen, setMenuOpen]=useState(false);
-  return (
+  return (    
     <>
     <nav className='Navbar'>
         <Link to="/" className='title'>STONK</Link>

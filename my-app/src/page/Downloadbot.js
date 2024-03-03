@@ -12,10 +12,10 @@ export const Downloadbot = () => {
         className='card-img'
         />
         <h1 className='card-title'>EUR/USD</h1>
-        <p className='card-description'>
+        <p className='card-description'>  
           This is template for Euro to USD.
         </p>
-        <a href='cardPage' className='card-btn'>Learn More</a>
+        <a href="EurUsd" className='card-btn'>Learn More</a>
     </div>
     <div className='card-container'>
         <img 

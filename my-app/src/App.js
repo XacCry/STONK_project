@@ -7,6 +7,7 @@ import { Login } from './page/Login'
 import { Signin } from './page/Signin';
 import Navbar from './components/Navbar';
 import { Downloadbot } from './page/Downloadbot';
+import { EurUsd } from './page/EurUsd';
 function App() {
   return (
     <div className='App'>
@@ -18,6 +19,7 @@ function App() {
           <Route path="/payment" element={<Payment/>} />
           <Route path="/login" element={<Login/>} />
           <Route path='/Signin' element={<Signin/>}/>
+          <Route path="/EurUsd" element={<EurUsd/>}/>
         </Routes>
     </div>
   );

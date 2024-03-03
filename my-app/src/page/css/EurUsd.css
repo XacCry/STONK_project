@@ -1,0 +1,17 @@
+
+.Container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100%; /* Set the height if needed */
+    margin-top: 2rem;
+  }
+  
+  /* Additional styles for MUI table */
+  .MuiTableContainer-root {
+    width: 100%; /* Ensure the table container fills the width of its parent */
+  }
+  
+  .MuiTable-root {
+    width: 100%; /* Ensure the table fills the width of its container */
+  }
